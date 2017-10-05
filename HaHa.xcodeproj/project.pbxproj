@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3F07F69C1D8AF9E60040E7B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07F69B1D8AF9E60040E7B6 /* AppDelegate.swift */; };
-		3F07F69E1D8AF9E60040E7B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07F69D1D8AF9E60040E7B6 /* ViewController.swift */; };
+		3F07F69E1D8AF9E60040E7B6 /* HaHaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07F69D1D8AF9E60040E7B6 /* HaHaViewController.swift */; };
 		3F07F6A11D8AF9E60040E7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F69F1D8AF9E60040E7B6 /* Main.storyboard */; };
 		3F07F6A31D8AF9E60040E7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6A21D8AF9E60040E7B6 /* Assets.xcassets */; };
 		3F07F6A61D8AF9E60040E7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6A41D8AF9E60040E7B6 /* LaunchScreen.storyboard */; };
+		3F07F6B31D8AF9FA0040E7B6 /* bart_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6AE1D8AF9FA0040E7B6 /* bart_button.png */; };
+		3F07F6B41D8AF9FA0040E7B6 /* haha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6AF1D8AF9FA0040E7B6 /* haha.mp3 */; };
+		3F07F6B51D8AF9FA0040E7B6 /* nelson.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6B01D8AF9FA0040E7B6 /* nelson.png */; };
+		3F07F6B61D8AF9FA0040E7B6 /* ralph_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6B11D8AF9FA0040E7B6 /* ralph_button.png */; };
+		3F07F6B71D8AF9FA0040E7B6 /* ralph_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07F6B21D8AF9FA0040E7B6 /* ralph_icon.png */; };
+		3F07F6BA1D8AFA320040E7B6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F07F6B91D8AFA320040E7B6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F07F6981D8AF9E60040E7B6 /* HaHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F07F69B1D8AF9E60040E7B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F07F69D1D8AF9E60040E7B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F07F69D1D8AF9E60040E7B6 /* HaHaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaHaViewController.swift; sourceTree = "<group>"; };
 		3F07F6A01D8AF9E60040E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F07F6A21D8AF9E60040E7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F07F6A51D8AF9E60040E7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F07F6A71D8AF9E60040E7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F07F6AE1D8AF9FA0040E7B6 /* bart_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart_button.png; sourceTree = "<group>"; };
+		3F07F6AF1D8AF9FA0040E7B6 /* haha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = haha.mp3; sourceTree = "<group>"; };
+		3F07F6B01D8AF9FA0040E7B6 /* nelson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nelson.png; sourceTree = "<group>"; };
+		3F07F6B11D8AF9FA0040E7B6 /* ralph_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ralph_button.png; sourceTree = "<group>"; };
+		3F07F6B21D8AF9FA0040E7B6 /* ralph_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ralph_icon.png; sourceTree = "<group>"; };
+		3F07F6B91D8AFA320040E7B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F07F6BA1D8AFA320040E7B6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,7 @@
 			children = (
 				3F07F69A1D8AF9E60040E7B6 /* HaHa */,
 				3F07F6991D8AF9E60040E7B6 /* Products */,
+				3F07F6B81D8AFA310040E7B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +68,35 @@
 		3F07F69A1D8AF9E60040E7B6 /* HaHa */ = {
 			isa = PBXGroup;
 			children = (
+				3F07F6AD1D8AF9ED0040E7B6 /* media */,
 				3F07F69B1D8AF9E60040E7B6 /* AppDelegate.swift */,
-				3F07F69D1D8AF9E60040E7B6 /* ViewController.swift */,
+				3F07F69D1D8AF9E60040E7B6 /* HaHaViewController.swift */,
 				3F07F69F1D8AF9E60040E7B6 /* Main.storyboard */,
 				3F07F6A21D8AF9E60040E7B6 /* Assets.xcassets */,
 				3F07F6A41D8AF9E60040E7B6 /* LaunchScreen.storyboard */,
 				3F07F6A71D8AF9E60040E7B6 /* Info.plist */,
 			);
 			path = HaHa;
+			sourceTree = "<group>";
+		};
+		3F07F6AD1D8AF9ED0040E7B6 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				3F07F6AE1D8AF9FA0040E7B6 /* bart_button.png */,
+				3F07F6AF1D8AF9FA0040E7B6 /* haha.mp3 */,
+				3F07F6B01D8AF9FA0040E7B6 /* nelson.png */,
+				3F07F6B11D8AF9FA0040E7B6 /* ralph_button.png */,
+				3F07F6B21D8AF9FA0040E7B6 /* ralph_icon.png */,
+			);
+			name = media;
+			sourceTree = "<group>";
+		};
+		3F07F6B81D8AFA310040E7B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F07F6B91D8AFA320040E7B6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F07F6B71D8AF9FA0040E7B6 /* ralph_icon.png in Resources */,
 				3F07F6A61D8AF9E60040E7B6 /* LaunchScreen.storyboard in Resources */,
+				3F07F6B41D8AF9FA0040E7B6 /* haha.mp3 in Resources */,
+				3F07F6B51D8AF9FA0040E7B6 /* nelson.png in Resources */,
 				3F07F6A31D8AF9E60040E7B6 /* Assets.xcassets in Resources */,
+				3F07F6B31D8AF9FA0040E7B6 /* bart_button.png in Resources */,
+				3F07F6B61D8AF9FA0040E7B6 /* ralph_button.png in Resources */,
 				3F07F6A11D8AF9E60040E7B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F07F69E1D8AF9E60040E7B6 /* ViewController.swift in Sources */,
+				3F07F69E1D8AF9E60040E7B6 /* HaHaViewController.swift in Sources */,
 				3F07F69C1D8AF9E60040E7B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
